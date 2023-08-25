@@ -1,0 +1,41 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {font-family: 'Montserrat Alternates', sans-serif;}
+
+button {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+html {
+    background-color: #F7F5DD;
+    scroll-behavior:smooth;
+    
+}
+main {
+    scroll-margin-top: 100px;
+}
+
+
+div {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+hr {
+    border: none;
+    
+}
+
+.main {
+
+    background-size: 400% 400%;
+    
+   
+    min-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow: hidden;
+  }
+
