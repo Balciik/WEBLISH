@@ -31,6 +31,9 @@ h6 {
     margin-left: 80px;
     color: #FF5594;
     font-size: 30px;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: ease 1s;
 }
 
 h2 em,
@@ -60,6 +63,12 @@ h3{
     margin-right: 300px;
 }
 
+h4 {
+    transform: translateY(-40px);
+    opacity: 0;
+    transition: 0.8s;
+}
+
 .website-text,
 .website-text-right {
     max-width: 740px;
@@ -70,6 +79,9 @@ h3{
     margin-top: -14px;
     margin-bottom: 30px;
     font-family: 'Outfit', sans-serif;
+    transform: translateX(-40px);
+    opacity: 0;
+    transition: 0.5s;
 }
 .website-text-right {
     align-self: flex-end;
@@ -135,6 +147,7 @@ h3{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     padding-bottom: 40px;
+    
 }
 
 .grid-group {
@@ -143,6 +156,9 @@ h3{
     height: 240px;
     border: solid #006E54 4Px;
     transition: 0.3s ease;
+    transform: translateY(140px);
+    opacity: 0;
+    transition: 0.5s;
 }
 
 .grid-group-circle {
@@ -198,3 +214,8 @@ h3{
     color: #F7F5DD;
 
 }
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }

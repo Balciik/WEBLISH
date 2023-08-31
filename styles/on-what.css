@@ -12,6 +12,9 @@
 .on-what-header {
     font-size: 40px;
     font-weight: 700;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity ease  0.3s, transform ease 0.3s;
     color: #012622;
 }
 
@@ -23,6 +26,7 @@
     row-gap: 40px;
     justify-self: center;
     flex-wrap: wrap;
+    
 }
 
 .on-what-icon {
@@ -31,6 +35,9 @@
     transition: 0.3s ease-out 100ms;
     cursor: pointer;
     pointer-events:visible;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity ease  0.3s, transform ease 0.3s;
 }
 
 .on-what-icon:hover {

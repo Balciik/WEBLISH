@@ -7,42 +7,42 @@ document.addEventListener("change", function() {
 if (selectedValue ==="1") {
     howInnerHTML = "";
     howInnerHTML = `
-    <p class="how-does-header">
+    <p class="how-does-header hidden-element">
     Výroba webových stránek!
 </p>
 <hr class="how-does-line">
 <div class="how-does-text1">
-    <p class="how-does-text-header">
+    <p class="how-does-text-header hidden-element">
         1. DOTAZ
     </p>
-    <p class="how-does-text">
+    <p class="how-does-text hidden-element">
         Stačí pouze vyplnit kontaktní formulář, popsat nám vaší firmu a vaše představy. Dodat odpovědné podklady a naše spolupráce může nezávazně počít!
     </p>
 </div>
 
-<div class="how-does-text2">
-    <p class="how-does-text-header">
+<div class="how-does-text2 ">
+    <p class="how-does-text-header hidden-element">
         2. NÁVRH
     </p>
-    <p class="how-does-text">
+    <p class="how-does-text hidden-element">
         Podle vašich představ vyhotovíme první návrh, do kterého se snažíme předat naší fantazii, aby váš web mohl vyčnívat nad ostatníma! Po vaší korekci následně návrh pozměníme, aby Vám vyhovoval!
     </p>
 </div>
 
 <div class="how-does-text3">
-    <p class="how-does-text-header">
+    <p class="how-does-text-header hidden-element">
         3. CENA
     </p>
-    <p class="how-does-text">
+    <p class="how-does-text hidden-element">
         Pokud již máme celou webovou stránku navrhnutou a Vámi odsouhlasenou, se vrheneme na vycenění celého projektu!
     </p>
 </div>
 
 <div class="how-does-text4">
-    <p class="how-does-text-header">
+    <p class="how-does-text-header hidden-element" >
         4. REALIZACE
     </p>
-    <p class="how-does-text">
+    <p class="how-does-text hidden-element">
         A už je to jenom na nás! Vám pouze příjde již hotový projekt, ke kterému se vyjádříte, popřípadě poladíme nějaké mouchy a vaše stránka může do světa!
     </p>
 </div>
@@ -88,42 +88,42 @@ if (selectedValue ==="1") {
  
     howInnerHTML = '';
     howInnerHTML +=`
-    <p class="how-does-header">
+    <p class="how-does-header hidden-element">
     Výroba e-shopu!
 </p>
 <hr class="how-does-line">
 <div class="how-does-text1">
-    <p class="how-does-text-header">
+    <p class="how-does-text-header hidden-element">
         1. DOTAZ
     </p>
-    <p class="how-does-text">
+    <p class="how-does-text hidden-element">
         Stačí pouze vyplnit kontaktní formulář, povědět nám váš rozpočet a ideální představu o eshopu. Dodat odpovědné podklady a naše spolupráce může nezávazně počít!
     </p>
 </div>
 
 <div class="how-does-text2">
-    <p class="how-does-text-header">
+    <p class="how-does-text-header hidden-element">
         2. NÁVRH
     </p>
-    <p class="how-does-text">
+    <p class="how-does-text hidden-element">
         Podle vašich představ vyhotovíme první návrh, do kterého se snažíme předat naší fantazii, aby váš e-shop mohl vyčnívat nad ostatníma, čím se dostanete do vrchních řádku vyhledávače a zvýšíte prodeje.
     </p>
 </div>
 
 <div class="how-does-text3">
-    <p class="how-does-text-header">
+    <p class="how-does-text-header hidden-element">
         3. CENA
     </p>
-    <p class="how-does-text">
+    <p class="how-does-text hidden-element">
         Pokud již máme celý e-shop navrhnutou a Vámi odsouhlasenou, se vrheneme na vycenění celého projektu.
     </p>
 </div>
 
 <div class="how-does-text4">
-    <p class="how-does-text-header">
+    <p class="how-does-text-header hidden-element">
         4. REALIZACE
     </p>
-    <p class="how-does-text">
+    <p class="how-does-text hidden-element">
         A už je to jenom na nás! Vám pouze příjde již hotový projekt, ke kterému se vyjádříte, popřípadě poladíme nějaké mouchy a váš e-shop může do světa!
     </p>
 </div>

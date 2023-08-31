@@ -17,8 +17,22 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    opacity: 0;
+    animation: fadeInDown 0.4s both;
+ 
 }
 
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 .header-header {
     font-size: 44px;
     font-weight: 700;
@@ -36,6 +50,8 @@
     display: flex;
     flex-direction: row;
     flex: 1;
+    opacity: 0;
+    animation: fadeInDown 0.4s both;
 }
 
 .right-links {

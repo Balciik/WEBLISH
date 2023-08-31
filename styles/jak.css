@@ -11,6 +11,10 @@
     font-size: 40px;
     font-weight: 700;
     color: #006E54;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity ease  0.3s, transform ease 0.3s;
 }
 
 .jak-line {
@@ -39,6 +43,9 @@
     margin-right: 10px;
     transition: 0.2s ease-out 100ms;
     cursor: pointer;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity ease  0.3s, transform ease 0.3s;
 }
 
 .jak-group:hover {

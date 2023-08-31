@@ -29,6 +29,10 @@
     margin-top: 120px;
     opacity: 0.9;
     transition: 0.3s ease-out 100ms;
+    opacity: 0;
+   
+    transition: opacity ease  0.1s ease 0.3s;
+    cursor: pointer;
 }
 .small:hover {
     width: 340px;
@@ -44,7 +48,9 @@
     color: #F7F5DD;
     font-size: 38px;
     font-weight: 700;
-
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity ease  0.3s, transform ease 0.3s;
 }
 
 .services-line {
@@ -106,6 +112,7 @@
     top: -200px;
   
 }
+
 
 @media (max-width: 1938px) {
     .services-background-bot {

@@ -11,12 +11,18 @@
 h5 {
     font-size: 38px;
     color: #720027;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity ease  0.3s, transform ease 0.3s;
 }
 .question-main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity ease  0.3s, transform ease 0.3s;
 }  
 
 
