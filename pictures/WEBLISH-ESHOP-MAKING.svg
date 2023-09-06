@@ -29,7 +29,7 @@
 </style>
 <g id="background">
 	<g>
-		<rect x="0.3" y="0.3" class="st0" width="1366" height="768"/>
+		<rect x="0.3" class="st0" width="1366" height="768"/>
 	</g>
 </g>
 <g id="planets">

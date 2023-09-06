@@ -30,8 +30,8 @@
     opacity: 0.9;
     transition: 0.3s ease-out 100ms;
     opacity: 0;
-   
-    transition: opacity ease  0.1s ease 0.3s;
+    transform: translateX(80px);
+    transition:  0.4s ;
     cursor: pointer;
 }
 .small:hover {
@@ -49,8 +49,8 @@
     font-size: 38px;
     font-weight: 700;
     opacity: 0;
-    transform: translateY(-100px);
-    transition: opacity ease  0.3s, transform ease 0.3s;
+    transform: translateX(-100px);
+    transition: opacity ease  1s, transform ease 0.3s;
 }
 
 .services-line {

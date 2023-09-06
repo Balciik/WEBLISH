@@ -24,7 +24,7 @@
     transition: opacity 500ms;
     opacity: 0;
     transform: translateY(40px);
-    transition: opacity ease  0.3s, transform ease 0.3s;
+    transition: opacity ease  1s, transform ease 1s;
 }
  
 .why-us-header2 {
@@ -62,7 +62,7 @@
     text-align: center;
     opacity: 0;
     transform: translateY(-80px);
-    transition: opacity ease  0.3s, transform ease 0.3s;
+    transition: opacity ease  1s, transform ease 1s;
 }
 
 .why-us-text2 {

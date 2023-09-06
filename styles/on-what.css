@@ -36,8 +36,8 @@
     cursor: pointer;
     pointer-events:visible;
     opacity: 0;
-    transform: translateY(-100px);
-    transition: opacity ease  0.3s, transform ease 0.3s;
+    transform: translateX(-100px);
+    transition:   0.9s;
 }
 
 .on-what-icon:hover {

@@ -45,7 +45,7 @@
     cursor: pointer;
     opacity: 0;
     transform: translateY(-100px);
-    transition: opacity ease  0.3s, transform ease 0.3s;
+    transition:  ease 0.6s;
 }
 
 .jak-group:hover {
@@ -54,12 +54,12 @@
 
 .jak-group:hover .jak-group-header {
     color: #F7F5DD;
-    transition: 0.2s ease-in-out 100ms;
+    transition: ease 0.6s;
 }
 
 .jak-group:hover .jak-group-text {
     color: #F7F5DD;
-    transition: 0.2s ease-out 100ms;
+    transition:  ease 0.6s;
 }
 
 

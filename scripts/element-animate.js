@@ -1,6 +1,6 @@
 const hiddenElements = document.querySelectorAll('.hidden-element');
 
-function isElementInViewport(element, offset = 20) {
+function isElementInViewport(element, offset = 100) {
   const rect = element.getBoundingClientRect();
   return (
     rect.top - offset <= (window.innerHeight || document.documentElement.clientHeight)
@@ -8,9 +8,11 @@ function isElementInViewport(element, offset = 20) {
 }
 
 function handleScroll() {
-  hiddenElements.forEach(element => {
+  hiddenElements.forEach((element, index) => {
     if (isElementInViewport(element)) {
-      element.classList.add('visible');
+      setTimeout(() => {
+        element.classList.add('visible');
+      }, index * 50); // Adjust the delay (500 milliseconds in this example)
     }
   });
 
