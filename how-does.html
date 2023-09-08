@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="styles/video.css">
         <link rel="stylesheet" href="styles/how-does.css">
         <link rel="stylesheet" href="styles/service-main.css">
+        <link rel="stylesheet" href="styles/burger-menu.css">
 
         <script src="scripts/select-how.js"></script>
         <title> Jak to funguje? - WEBLISH</title>
@@ -18,6 +19,7 @@
     </head>
     <body>
         <header class="header">
+        
             <div class="left-header">
                <p class="header-header">
                 WEBLISH
@@ -25,25 +27,43 @@
                
             </div>
             <div class="right-header">
-                <nav class="right-links">
+                <div class="right-links">
                     <p class="services-link">
                         Služby
                     </p>
                     <p class="how-works-link">
                         Jak to funguje?
                     </p>
-                 
+                   
                     <p class="about-us-link">
                         Reference
                     </p>
                     <p class="contacts-link">
+                        Blog
+                    </p>
+                    <p class="contacts-link">
                         Kontakty
                     </p>
-                </nav>
-                <div class="right-icons">
-                   
+    
+                    <button class="burger" onclick="toggleMenu()"></button>
+                    <div class="background"></div>
+                    <div class="menu">
+                      <nav>
+                        <a style="animation-delay: 0.2s">Služby</a>
+                        <a style="animation-delay: 0.3s">Jak to funguje?</a>
+                        <a style="animation-delay: 0.4s">Reference</a>
+                        <a style="animation-delay: 0.5s">Blog</a>
+                        <a style="animation-delay: 0.5s">Kontakty</a>
+                       
+                      </nav>
+                    </div>
+                    <script type="text/javascript">
+                      const toggleMenu = () => document.body.classList.toggle("open");
+                    </script>
+                    
                 </div>
-            </div>
+               
+            
         </header>
         <div>
         <img class="how-does-img" src="pictures/WEBLISH-how-img.svg">
@@ -178,14 +198,45 @@
                 </div>
             </div>
         </div>
-      
         <footer class="footer-container2">
+            <div class="socials-wrapper">
+                <div class="share-button">
+                    <img src="pictures/share.svg" alt="Share On Socials" />
+                </div>
+                <menu class="socials-menu">
+                    <li class="social">
+                        <a href="#" title="Instagram">
+                            <img src="pictures/instagram.svg" alt="Instagram" />
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="#" title="Twitter">
+                            <img src="pictures/twitter.svg" alt="Twitter" />
+                        </a>
+                    </li>
+                    <li class="social" title="Threads">
+                        <a href="#">
+                            <img src="pictures/threads.svg" alt="Threads" />
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="#" title="Youtube">
+                            <img src="pictures/youtube.svg" alt="Youtube" />
+                        </a>
+                    </li>
+                </menu>
+            </div>
             <div class="footer-up">
+                
                 <a href="#">
                     <img class="footer-weblish-icon" src="pictures/weblis-logo-big-color.svg">
                 </a>
                 
+                 
             </div>
+            
+        </div>
+        
             <div class="footer-down">
                 <div class="footer-links">
                     <p class="footer-link">
@@ -202,15 +253,21 @@
                     </p>
                     
                 </div>
+                
                 <div class="footer-info">
                     <p>
                         ©2023 WEBSLISH | Všechna práva vyhrazena
                     </p>
                 </div>
             </div>
+    
+          </footer>   
+    
         </main>
-          </footer>
+          
 
           <script src="scripts/element-animate.js"></script>
+          <script src="scripts/burger-menu.js"></script>
+          <script src="scripts/icons-expand.js"></script>
     </body>
 </html>

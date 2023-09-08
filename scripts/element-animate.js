@@ -12,7 +12,7 @@ function handleScroll() {
     if (isElementInViewport(element)) {
       setTimeout(() => {
         element.classList.add('visible');
-      }, index * 50); // Adjust the delay (500 milliseconds in this example)
+      }, index * 30); // Adjust the delay (500 milliseconds in this example)
     }
   });
 

@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="styles/video.css">
 <link rel="stylesheet" href="styles/website-making.css">
 <link rel="stylesheet" href="styles/buttons.css">
+<link rel="stylesheet" href="styles/burger-menu.css">
 
 
 <title> Výroba eshopu - WEBLISH</title>
@@ -42,14 +43,30 @@
                     Reference
                 </p>
                 <p class="contacts-link">
+                    Blog
+                </p>
+                <p class="contacts-link">
                     Kontakty
                 </p>
+
+                <button class="burger" onclick="toggleMenu()"></button>
+                <div class="background"></div>
+                <div class="menu">
+                  <nav>
+                    <a style="animation-delay: 0.2s">Služby</a>
+                    <a style="animation-delay: 0.3s">Jak to funguje?</a>
+                    <a style="animation-delay: 0.4s">Reference</a>
+                    <a style="animation-delay: 0.5s">Blog</a>
+                    <a style="animation-delay: 0.5s">Kontakty</a>
+                   
+                  </nav>
+                </div>
+                <script type="text/javascript">
+                  const toggleMenu = () => document.body.classList.toggle("open");
+                </script>
+                
             </div>
-            <div class="right-icons">
-              
-            </div>
-            </div>
-            
+           
         
     </header>
 
@@ -278,5 +295,6 @@
       </footer>   
       <script src="scripts/icons-expand.js"></script>
       <script src="scripts/element-animate.js"></script>
+      <script src="scripts/burger-menu.js"></script>
 </body>
 </html>
