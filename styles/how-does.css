@@ -64,7 +64,7 @@ user-select: none;
     transform: translateY(-80px);
 }
 h1 {
-    margin-top: 100px;
+    margin-top: -80px;
     color: #720027;
     font-size: 40px;
     opacity: 0;
@@ -74,7 +74,8 @@ h1 {
 
 .how-does-line-main {
     width: 40%;
-    height: 4px;
+    height: 8px;
+    border-radius: 4px;
     margin-top: -12Px;
     background-color: #720027;
 }
@@ -86,26 +87,45 @@ summary {
     height: 230px;
     margin-top: 40px;
     align-self: center;
+    align-items: center;
     margin-bottom: -20px;
     
 }
 
-.jak-group:hover .summary-header {
-    font-size: 24px;
+@media (max-width: 1400px) {
+    summary {
+        grid-template-columns: 1fr ;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 400px;
+    }
+    .summary-text {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.summary-header {
+    font-size: 22px;
     font-weight: 700;
-    color: #006E54;
+    color: black;
+    margin-bottom: 32px;
     opacity: 0;
     transform: translateX(40px);
     transition: 0.8s ease;
 }
 
 .summary-text {
+
     font-size: 20px;
+  
     font-weight: 500;
     margin-top: -14px;
     opacity: 0;
     transform: translateY(80px);
     transition: 0.8s ease;
+    max-width: 500px;
 }
 main {
     display: flex;
@@ -130,16 +150,16 @@ main {
     z-index: 10;
     margin-top: 120px;
     margin-bottom: -140px;
-    width: 300px;
+    width: 360px;
     height: 60px;
     background-color: #720027;
     border-radius: 12Px;
     color: white;
     font-family: 'Montserrat Alternates';
     font-size: 20Px;
-    padding-left: 10px;
+    padding-left: 14px;
     font-weight: 700;
-    font-style: italic;
+
     outline: none;
     cursor:pointer;
     opacity: 0;

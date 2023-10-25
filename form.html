@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="styles/header.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/footer.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/website-making.css">
+<link rel="stylesheet" href="styles/buttons.css">
+<link rel="stylesheet" href="styles/burger-menu.css">
+<link rel="stylesheet" href="styles/order.css">
+      <link rel="stylesheet" href="styles/why-us.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEBLISH - Objednání webových aplikací!</title>
+        
+            <link rel="shortcut icon" type="image/x-icon" href="pictures/weblish-logo-small.svg" />
+        
+            
+    </head>
+    <body>
+        <header class="header">
+        
+            <div class="left-header">
+               <p class="header-header">
+                WEBLISH
+               </p>
+               
+            </div>
+            <div class="right-header">
+                <div class="right-links">
+                    <p class="services-link">
+                        Služby
+                    </p>
+                    <p class="how-works-link">
+                        Jak to funguje?
+                    </p>
+                   
+                    <p class="about-us-link">
+                        Reference
+                    </p>
+                    <p class="contacts-link">
+                        Blog
+                    </p>
+                    <p class="contacts-link">
+                        Kontakty
+                    </p>
+    
+                    <button class="burger" onclick="toggleMenu()"></button>
+                    <div class="background"></div>
+                    <div class="menu">
+                      <nav>
+                        <a style="animation-delay: 0.2s">Služby</a>
+                        <a style="animation-delay: 0.3s">Jak to funguje?</a>
+                        <a style="animation-delay: 0.4s">Reference</a>
+                        <a style="animation-delay: 0.5s">Blog</a>
+                        <a style="animation-delay: 0.5s">Kontakty</a>
+                       
+                      </nav>
+                    </div>
+                    <script type="text/javascript">
+                      const toggleMenu = () => document.body.classList.toggle("open");
+                    </script>
+                    
+                </div>
+               
+            
+        </header>
+
+        <div>
+            <img src="pictures/WEBLISH-seo-img.svg" class="website-img">
+            <div class="buttons hidden-element" >
+                
+            <a href="#main">
+                <button class="button3">
+                    Objednat!
+                </button>
+            </a>
+
+           
+        </div>
+        
+        </div>
+
+        <main id="main">
+            <h1 class="hidden-element">
+                Objednat naše služby!
+            </h1>
+            <hr class="header-line">
+        <section class="order-form">
+            <div class="progress-bar">
+                <div class="step step-1"> </div>
+                <div class="step step-2"> </div>
+                <div class="step step-3"> </div>
+            </div>
+            <form id="form">
+                <p class="services-label">Něco málo o vás<em>.</em></p>
+                <div class="center">
+                    <div class="small">
+                    <label for="name">Jméno:</label>
+                    <input type="text" name="name" id="name" class="form" required>
+                </div>
+                <div class="small">
+                    <label for="surname" class="margin-left">Příjmení:</label>
+                    <input type="text" name="surname" id="surname" class="form" required>
+                </div>
+                </div>
+
+                <div class="center">
+                    <div class="small">
+
+                  
+                    <label for="mail">E-mail</label>
+                    <input type="email" name="mail" id="mail" class="form" required>
+                </div>
+                <div class="small">
+                    <label for="surname" class="margin-left">Telefon:</label>
+                    <input type="text" name="surname" id="surname" class="form" required>
+                    </div>
+                </div>
+                
+
+
+          
+            </form>
+
+           
+            
+            <div class="center">
+            
+            <button class="previous-button" id="previousButton">Zpět</button>
+            <button class="next-button" id="nextButton" type="submit">Pokračovat</button>
+        </div>
+        </section>
+        </main>
+
+        <footer class="footer-container">
+            <div class="socials-wrapper">
+                <div class="share-button">
+                    <img src="pictures/share.svg" alt="Share On Socials" />
+                </div>
+                <menu class="socials-menu">
+                    <li class="social">
+                        <a href="#" title="Instagram">
+                            <img src="pictures/instagram.svg" alt="Instagram" />
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="#" title="Twitter">
+                            <img src="pictures/twitter.svg" alt="Twitter" />
+                        </a>
+                    </li>
+                    <li class="social" title="Threads">
+                        <a href="#">
+                            <img src="pictures/threads.svg" alt="Threads" />
+                        </a>
+                    </li>
+                    <li class="social">
+                        <a href="#" title="Youtube">
+                            <img src="pictures/youtube.svg" alt="Youtube" />
+                        </a>
+                    </li>
+                </menu>
+            </div>
+            <div class="footer-up">
+                
+                <a href="#">
+                    <img class="footer-weblish-icon" src="pictures/weblis-logo-big-color.svg">
+                </a>
+                
+                 
+            </div>
+            
+        </div>
+        
+            <div class="footer-down">
+                <div class="footer-links">
+                    <p class="footer-link">
+                        Služby
+                    </p>
+                    <p class="footer-link">
+                        Jak to funguje?
+                    </p>
+                    <p class="footer-link">
+                        Reference
+                    </p>
+                    <p class="footer-link">
+                        Blog
+                    </p>
+                    
+                </div>
+                
+                <div class="footer-info">
+                    <p>
+                        ©2023 WEBSLISH | Všechna práva vyhrazena
+                    </p>
+                </div>
+            </div>
+    
+          </footer>   
+        <script src="scripts/icons-expand.js"></script>
+      <script src="scripts/element-animate.js"></script>
+      <script src="scripts/burger-menu.js"></script>
+      <script src="scripts/bar-progress-order.js"></script>
+      <script src="scripts/order-change.js"></script>
+  
+      
+
+      <script>
+        function toggleRadio(service) {
+   const radioInput = document.getElementById(service);
+   if (radioInput) {
+       radioInput.checked = !radioInput.checked;
+   }
+}
+   </script>
+    </body>
+</html>

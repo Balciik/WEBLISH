@@ -13,9 +13,9 @@
 
 
 .services-img {
-    height: 100vh;
+    
    
-    margin-top: -140px;
+    margin-top: -180px;
     pointer-events: none;
     -moz-user-select: none;
 -webkit-user-select: none;
@@ -33,6 +33,7 @@ user-select: none;
     opacity: 0;
     transform: translateY(30px);
     transition: 0.5s;
+    
 }
 
 @media (max-width: 800px) {
@@ -278,3 +279,4 @@ h3 {
 
 
 }
+

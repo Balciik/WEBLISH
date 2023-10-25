@@ -1,11 +1,17 @@
+
+
+button,
+label,
 p,
 h1,
 h2,
 h3,
 h4,
-h5 {font-family: 'Montserrat Alternates', sans-serif;}
-
-button {
+h5,
+div,
+select,
+textarea,
+input {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -18,10 +24,6 @@ main {
     scroll-margin-top: 100px;
 }
 
-
-div {
-    font-family: 'Montserrat Alternates', sans-serif;
-}
 
 hr {
     border: none;
@@ -39,3 +41,35 @@ hr {
     overflow: hidden;
   }
 
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.margin-top {
+    margin-top: 30px;
+}
+
+.margin {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}

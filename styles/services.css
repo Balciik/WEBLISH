@@ -55,11 +55,12 @@
 
 .services-line {
     position: absolute;
-    width: 50%;
-    height: 2px;
+    width: 40%;
+    height: 4px;
+    border-radius: 3px;
    
-    background-color: #720027;
-    opacity: 0.4;
+    background-color: #F7F5DD;
+
     top: 88px;
 }
 
