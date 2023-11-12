@@ -22,6 +22,11 @@
  
 }
 
+@media (max-width: 500px) {
+    .header-header {
+        content:url(weblish-header-small.svg)
+    }
+}
 
 @keyframes fadeInDown {
     from {
@@ -34,9 +39,8 @@
     }
   }
 .header-header {
-    font-size: 44px;
-    font-weight: 700;
-    color: #FF5594;
+    width: 50%;
+    margin-left: -20px;
     transition: 0.2s ease-out 100ms;
 }
 .header-header:hover {

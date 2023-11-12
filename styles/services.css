@@ -1,9 +1,9 @@
 .services-container {
     position: relative;
     background-color: #006E54;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
     height: max-content;
-    padding-bottom: 40Px;
+   
     
     display: flex;
     flex-direction: row;
@@ -16,12 +16,13 @@
 
 .small{
     background-color: #F7F5DD;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: 50px;
+    margin-bottom: -60px;
     border-radius: 40px;
     margin-right: 50px;
-    height: 580px;
-    width: 320px;
+    height: 540px;
+    width: 400px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -32,13 +33,34 @@
     opacity: 0;
     transform: translateX(80px);
     transition:  0.4s ;
-    cursor: pointer;
+
+}
+.services-container-text {
+    font-size: 21px;
+    max-width: 320px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;;
+    
+}  
+@media (max-width: 500px) {
+    .small {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 40px;
+        padding-left: 10Px;
+        padding-right: 10px;
+    }
+
+    .services-container-text  {
+        max-width: 84%;
+    }
 }
 .small:hover {
-    width: 340px;
-    height: 560px;
-    padding-top: 10Px;
-    padding-bottom: 20px;
+  
+    
+   
+    
+  background-color: #f6f5e7;
     border-radius: 20px;
     z-index: 2;
     opacity: 1;
@@ -65,7 +87,7 @@
 }
 
 .services-container-header   {
-    font-size: 32px;
+    font-size: 38px;
     color: #720027;
     max-width: 95%;
     font-weight: 700;
@@ -80,9 +102,14 @@
     border-radius: 20px;
     font-size: 22px;
     font-weight: 600;
-    position: absolute;
-    margin-top: 480PX;
+    transition: 0.3s ease;
+  
+    margin-top: 20px;
     cursor: pointer;
+}
+
+.services-container-button:hover {
+    background-color: #590422;
 }
 
 .services-container-line {
@@ -94,11 +121,7 @@
     opacity: 0.7;
 }
 
-.services-container-text {
-    font-size: 20px;
-    max-width: 220px;
-    
-}  
+
 
 
 .services-background,
