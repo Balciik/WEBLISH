@@ -1,372 +1,404 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        
-        <link rel="stylesheet" href="styles/header.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/general.css">
-        <link rel="stylesheet" href="styles/services.css">
-        <link rel="stylesheet" href="styles/video.css">
-        <link rel="stylesheet" href="styles/jak.css">
-        
-        <link rel="stylesheet" href="styles/on-what.css">
-        <link rel="stylesheet" href="styles/how-does.css">
-        <link rel="stylesheet" href="styles/questions.css">
-        <link rel="stylesheet" href="styles/footer.css">
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-      <link rel="stylesheet" href="styles/burger-menu.css">
-      <link rel="stylesheet" href="styles/why-us.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WEBLISH - výroba webovách aplikací!</title>
-        
-            <link rel="shortcut icon" type="image/x-icon" href="pictures/weblish-logo-small.svg" />
-        
-            
-    </head>
-    <body>
-   
-        
-        <header class="header">
-        
-            <div class="left-header">
-               <p class="header-header">
-                WEBLISH
-               </p>
-               
-            </div>
-            <div class="right-header">
-                <div class="right-links">
-                    <p class="services-link">
-                        Služby
-                    </p>
-                    <p class="how-works-link">
-                        Jak to funguje?
-                    </p>
-                   
-                    <p class="about-us-link">
-                        Reference
-                    </p>
-                    <p class="contacts-link">
-                        Blog
-                    </p>
-                    <p class="contacts-link">
-                        Kontakty
-                    </p>
-    
-                    <button class="burger" onclick="toggleMenu()"></button>
-                    <div class="background"></div>
-                    <div class="menu">
-                      <nav>
+
+<head>
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/jak.css">
+
+    <link rel="stylesheet" href="styles/on-what.css">
+    <link rel="stylesheet" href="styles/how-does.css">
+    <link rel="stylesheet" href="styles/questions.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/burger-menu.css">
+    <link rel="stylesheet" href="styles/why-us.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBLISH - výroba webovách aplikací!</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="pictures/weblish-logo-small.svg" />
+
+
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <div class="left-header">
+            <img class="header-header" src="header-logo-big.svg">
+
+        </div>
+        <div class="right-header">
+            <div class="right-links">
+                <p class="services-link">
+                    Služby
+                </p>
+                <p class="how-works-link">
+                    Jak to funguje?
+                </p>
+
+                <p class="about-us-link">
+                    Reference
+                </p>
+                <p class="contacts-link">
+                    Blog
+                </p>
+                <p class="contacts-link">
+                    Kontakty
+                </p>
+
+                <button class="burger" onclick="toggleMenu()"></button>
+                <div class="background"></div>
+                <div class="menu">
+                    <nav>
                         <a style="animation-delay: 0.2s">Služby</a>
                         <a style="animation-delay: 0.3s">Jak to funguje?</a>
                         <a style="animation-delay: 0.4s">Reference</a>
                         <a style="animation-delay: 0.5s">Blog</a>
                         <a style="animation-delay: 0.5s">Kontakty</a>
-                       
-                      </nav>
-                    </div>
-                    <script type="text/javascript">
-                      const toggleMenu = () => document.body.classList.toggle("open");
-                    </script>
-                    
+
+                    </nav>
                 </div>
-               
-            
-        </header>
-        <main class="main">
+                <script type="text/javascript">
+                    const toggleMenu = () => document.body.classList.toggle("open");
+                </script>
+
+            </div>
+
+
+    </header>
+    <main class="main">
         <div class="test-video">
             <img class="main-img" src="pictures/weblish-main.svg">
-          
+
         </div>
-        
+
         <div class="why-us-container">
-         
+
             <h1 class="why-us-header hidden-element">
                 Výroba webových stránek
             </h1>
             <hr class="why-us-line">
-            <p class="why-us-text hidden-element" >
-                Webové stránky a e-shopy jsou v dnešní době nedílnou součástí všeho podnikání. Dokážou přilákat zákazníky, upoutat jejich pozornost a neposlední řadě zařídit zakoupení daného produktu/služby. Dokáží zvýšit povědomí o firmě a díky dobrému SEO se dostanou na přední místa ve vyhledávači
+            <p class="why-us-text hidden-element">
+                Webové stránky a e-shopy jsou v dnešní době nedílnou součástí všeho podnikání. Dokážou přilákat
+                zákazníky, upoutat jejich pozornost a neposlední řadě zařídit zakoupení daného produktu/služby. Dokáží
+                zvýšit povědomí o firmě a díky dobrému SEO se dostanou na přední místa ve vyhledávači
             </p>
-       
-        
+
+
             <h2 class="why-us-header2 hidden-element">
                 Proč zrovna my?
             </h2>
             <hr class="why-us-line2">
             <p class="why-us-text2 hidden-element">
-                U nás ve WEBLISH odvádíme práci s láskou, do každého projektu se snažíme vložit poctivou dávku kreativity, aby nad ostatníma stránkama vynikl. Přes copywriting až po grafický design, to vše zaručí, že s náma budete spokojení. A to nejlepší nakonec, pokud nestihneme dodat projekt v domluveném termínu, náklady jdou na nás!
+                U nás ve WEBLISH odvádíme práci s láskou, do každého projektu se snažíme vložit poctivou dávku
+                kreativity, aby nad ostatníma stránkama vynikl. Přes copywriting až po grafický design, to vše zaručí,
+                že s náma budete spokojení. A to nejlepší nakonec, pokud nestihneme dodat projekt v domluveném termínu,
+                náklady jdou na nás!
             </p>
-           
+
         </div>
 
-       
-       
-      <div class="services-container">
-   
-        <h3 class="services-header hidden-element">
-            Služby!
-        </h3>
-        <hr class="services-line">
-        <div class="small hidden-element">
-            <p class="services-container-header ">
-                Výroba web. stránek!
-            </p>
-            <hr class="services-container-line">
-            <p class="services-container-text">
-                Webová stránka je v dnešní době jedna z nejdůležitějších částí vašeho podnikání. Hezky vypadající stránka vám pomůže získat větší zisky a pozornost veřejnosti! U nás v laboratoři se snažíme, aby vaše webovka vypadala co nejlépe.
-            </p>
-            <button class="services-container-button">
-                Víc info!
-            </button>
+
+
+        <div class="services-container">
+
+            <h3 class="services-header hidden-element">
+                Služby!
+            </h3>
+            <hr class="services-line">
+            <div class="small hidden-element">
+                <p class="services-container-header ">
+                    Výroba web. stránek!
+                </p>
+                <hr class="services-container-line">
+                <p class="services-container-text">
+                    Webová stránka je v dnešní době jedna z nejdůležitějších částí vašeho podnikání. Hezky vypadající
+                    stránka vám pomůže získat větší zisky a pozornost veřejnosti! U nás v laboratoři se snažíme, aby
+                    vaše webovka vypadala co nejlépe.
+                </p>
+                <button class="services-container-button">
+                    Víc info!
+                </button>
+            </div>
+
+            <div class="small hidden-element">
+                <p class="services-container-header">
+                    Výroba e-shopu!
+                </p>
+                <hr class="services-container-line ">
+                <p class="services-container-text">
+                    Pokud prodáváte nějaké produkty, tak e-shop je elegantní cesta, jak se dostat do hledáčku
+                    veřejnosti! Profesionálně vypadající e-shop vám zaručí zvýšení nejen tržeb, ale i povědomí o vaší
+                    firmě, přičemž vytvoří i tvář vaší firmě!
+                </p>
+                <button class="services-container-button">
+                    Víc info!
+                </button>
+            </div>
+
+            <div class="small hidden-element">
+                <p class="services-container-header">
+                    Předělání web. stránek!
+                </p>
+                <hr class="services-container-line">
+                <p class="services-container-text">
+                    Už vlastníte web, avšak se vám její design nelíbí, neplní své ůčely nebo zkrátka chcete novou.
+                    Webové stránky se u nás přemění, jako by byli z jiného vesmíru. Od předělání designu až po vylepšení
+                    SEO.
+                </p>
+                <button class="services-container-button">
+                    Víc info!
+                </button>
+            </div>
+            <div class="small hidden-element">
+                <p class="services-container-header">
+                    Optimalizace stránek!
+                </p>
+                <hr class="services-container-line">
+                <p class="services-container-text">
+                    Nelíbí se vám rychlost, s kterou se vaše stránka načítá? Jediným způsobem jak tuto problematiku
+                    zlepšit je pomocí zredukování textu v kódu! Pomůže to nejen k zážitku vašich zákazníků, ale i SEO
+                    webu.
+                </p>
+                <button class="services-container-button">
+                    Víc info!
+                </button>
+            </div>
+
+            <div class="small hidden-element">
+                <p class="services-container-header">
+                    Grafické služby!
+                </p>
+                <hr class="services-container-line">
+                <p class="services-container-text">
+                    Ať už potřebujete nové logo, vizitky nebo celou novou firemní identitu, ve WEBLSIH se vrhneme na věc
+                    ihned, abyste mohli začít co nejdříve. Na konci pouze doručíme grafické projekty v jakékoliv formátu
+                    budete potřebovat!
+                </p>
+                <button class="services-container-button">
+                    Víc info!
+                </button>
+            </div>
+
         </div>
+        <div class="jak-container">
+            <h4 class="jak-header hidden-element">
+                Jak to funguje?
+            </H4>
+            <hr class="jak-line">
+            <img class="jak-img" src="pictures/planet-beige-weblish.svg">
 
-        <div class="small hidden-element">
-            <p class="services-container-header">
-                Výroba e-shopu!
-            </p>
-            <hr class="services-container-line ">
-            <p class="services-container-text">
-                Pokud prodáváte nějaké produkty, tak e-shop je elegantní cesta, jak se dostat do hledáčku veřejnosti! Profesionálně vypadající e-shop vám zaručí zvýšení nejen tržeb, ale i povědomí o vaší firmě, přičemž vytvoří i tvář vaší firmě!
-            </p>
-            <button class="services-container-button">
-                Víc info!
-            </button>
-        </div>
+            <div class="jak-art">
+                <div class="jak-group hidden-element">
+                    <div class="jak-group-left">
+                        <div class="jak-circle">
+                            1
+                        </div>
 
-        <div class="small hidden-element">
-            <p class="services-container-header">
-                Předělání web. stránek!
-            </p>
-            <hr class="services-container-line">
-            <p class="services-container-text">
-                Už vlastníte web, avšak se vám její design nelíbí, neplní své ůčely nebo zkrátka chcete novou. Webové stránky se u nás přemění, jako by byli z jiného vesmíru. Od předělání designu až po vylepšení SEO.
-            </p>
-            <button class="services-container-button">
-                Víc info!
-            </button>
-        </div> 
-        <div class="small hidden-element">
-            <p class="services-container-header">
-                Optimalizace stránek!
-            </p>
-            <hr class="services-container-line">
-            <p class="services-container-text">
-                Nelíbí se vám rychlost, s kterou se vaše stránka načítá? Jediným způsobem jak tuto problematiku zlepšit je pomocí zredukování textu v kódu! Pomůže to nejen k zážitku vašich zákazníků, ale i SEO webu.
-            </p>
-            <button class="services-container-button">
-                Víc info!
-            </button>
-        </div>
-
-        <div class="small hidden-element">
-            <p class="services-container-header">
-                Grafické služby!
-            </p>
-            <hr class="services-container-line">
-            <p class="services-container-text">
-                Ať už potřebujete nové logo, vizitky nebo celou novou firemní identitu, ve WEBLSIH se vrhneme na věc ihned, abyste mohli začít co nejdříve. Na konci pouze doručíme grafické projekty v jakékoliv formátu budete potřebovat! 
-            </p>
-            <button class="services-container-button">
-                Víc info!
-            </button>
-        </div>
-      
-      </div>
-      <div class="jak-container">
-        <h4 class="jak-header hidden-element">
-            Jak to funguje?
-        </H4>
-        <hr class="jak-line">
-        <img class="jak-img" src="pictures/planet-beige-weblish.svg">
-        
-        <div class="jak-art">
-            <div class="jak-group hidden-element">
-                <div class="jak-group-left">
-                    <div class="jak-circle">
-                        1
                     </div>
-                    
-                </div>
-                <div class="jak-group-right">
-                    <p class="jak-group-header">
-                        OSLOVENÍ
-                    </p>
-                    <p class="jak-group-text">
-                        Ozvěte se nám pomocí krátkého formuláře. Hrubě nám sdělte něco o vaší firmě a vašich představách!
-                    </p>
-                </div>
-            </div>
-
-            <div class="jak-group hidden-element">
-                <div class="jak-group-left">
-                    <div class="jak-circle">
-                        2
+                    <div class="jak-group-right">
+                        <p class="jak-group-header">
+                            OSLOVENÍ
+                        </p>
+                        <p class="jak-group-text">
+                            Ozvěte se nám pomocí krátkého formuláře. Hrubě nám sdělte něco o vaší firmě a vašich
+                            představách!
+                        </p>
                     </div>
-                    
                 </div>
-                <div class="jak-group-right">
-                    <p class="jak-group-header">
-                        ONLINE HOVOR
-                    </p>
-                    <p class="jak-group-text">
-                        Na mailu se s váme spojíme a domluvíme termín online schůzky, na které podrovněji rozebereme vaše přestavy!
-                    </p>
-                </div>
-            </div>
 
-            <div class="jak-group hidden-element">
-                <div class="jak-group-left">
-                    <div class="jak-circle">
-                        3
+                <div class="jak-group hidden-element">
+                    <div class="jak-group-left">
+                        <div class="jak-circle">
+                            2
+                        </div>
+
                     </div>
-                    
-                </div>
-                <div class="jak-group-right">
-                    <p class="jak-group-header">
-                       POZNÁNÍ KONKURENCE 
-                    </p>
-                    <p class="jak-group-text">
-                        Abychom byli schopni zajistit, aby vaše stránka byla perličkou mezi weby, porozhlédneme se po konkurenci! 
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="jak-group hidden-element" >
-                <div class="jak-group-left">
-                    <div class="jak-circle">
-                        4
+                    <div class="jak-group-right">
+                        <p class="jak-group-header">
+                            ONLINE HOVOR
+                        </p>
+                        <p class="jak-group-text">
+                            Na mailu se s váme spojíme a domluvíme termín online schůzky, na které podrovněji rozebereme
+                            vaše přestavy!
+                        </p>
                     </div>
-                   
                 </div>
-                <div class="jak-group-right">
-                    <p class="jak-group-header">
-                        NÁVRH
-                    </p>
-                    <p class="jak-group-text">
-                        Zhotovíme první hrubý návrh, jak bude celá stránka rozložená, barevné schéma a design webu!
-                    </p>
-                </div>
-            </div>
 
+                <div class="jak-group hidden-element">
+                    <div class="jak-group-left">
+                        <div class="jak-circle">
+                            3
+                        </div>
 
-            <div class="jak-group hidden-element">
-                <div class="jak-group-left">
-                    <div class="jak-circle">
-                        5
                     </div>
-                    
-                </div>
-                <div class="jak-group-right">
-                    <p class="jak-group-header">
-                        ZPĚTNÁ VAZBA
-                    </p>
-                    <p class="jak-group-text">
-                        Pokud v našem návrhu najdete nějaké mouchy, tak budeme tvrdě makat, abychom Vám stoprocentě vyhovovali!
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="jak-group hidden-element">
-                <div class="jak-group-left">
-                    <div class="jak-circle">
-                        6
+                    <div class="jak-group-right">
+                        <p class="jak-group-header">
+                            POZNÁNÍ KONKURENCE
+                        </p>
+                        <p class="jak-group-text">
+                            Abychom byli schopni zajistit, aby vaše stránka byla perličkou mezi weby, porozhlédneme se
+                            po konkurenci!
+                        </p>
                     </div>
+                </div>
+
+
+                <div class="jak-group hidden-element">
+                    <div class="jak-group-left">
+                        <div class="jak-circle">
+                            4
+                        </div>
+
+                    </div>
+                    <div class="jak-group-right">
+                        <p class="jak-group-header">
+                            NÁVRH
+                        </p>
+                        <p class="jak-group-text">
+                            Zhotovíme první hrubý návrh, jak bude celá stránka rozložená, barevné schéma a design webu!
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="jak-group hidden-element">
+                    <div class="jak-group-left">
+                        <div class="jak-circle">
+                            5
+                        </div>
+
+                    </div>
+                    <div class="jak-group-right">
+                        <p class="jak-group-header">
+                            ZPĚTNÁ VAZBA
+                        </p>
+                        <p class="jak-group-text">
+                            Pokud v našem návrhu najdete nějaké mouchy, tak budeme tvrdě makat, abychom Vám stoprocentě
+                            vyhovovali!
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="jak-group hidden-element">
+                    <div class="jak-group-left">
+                        <div class="jak-circle">
+                            6
+                        </div>
                     </div>
                     <div class="jak-group-right">
 
-                    
-                    <p class="jak-group-header">
-                        Realizace
+
+                        <p class="jak-group-header">
+                            Realizace
+                        </p>
+
+                        <p class="jak-group-text">
+                            Už je to pouze na nás, stránku vám v této době zhotovíme a připravíme na vypuštění do světa!
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="on-what-container">
+
+            <p class="on-what-header hidden-element">
+                Naše hračky!
+            </p>
+
+            <div class="on-what-down">
+                <img class="on-what-icon hidden-element" src="pictures/html.png">
+                <img class="on-what-icon hidden-element" src="pictures/css.svg">
+                <img class="on-what-icon hidden-element" src="pictures/js.png">
+                <img class="on-what-icon hidden-element" src="pictures/mysql.png">
+                <img class="on-what-icon hidden-element" src="pictures/nodejs.svg">
+                <img class="on-what-icon hidden-element" src="pictures/php.png">
+            </div>
+        </div>
+
+        <div class="question-container">
+            <h5 class="hidden-element">Často kladené otázky</h5>
+            <div class="question-main hidden-element">
+                <div class="question">
+                    <p class="question-header">
+                        Proč je web důležitý?
                     </p>
-              
-                    <p class="jak-group-text">
-                        Už je to pouze na nás, stránku vám v této době zhotovíme a připravíme na vypuštění do světa!
+                    <p class="question-text">
+                        Internet je místem, kde vás lidi najdou. Místem, kde se odehrává v dnešní době většina
+                        marketingu. Dobře vyřešené webovky dokážou zaujmout zraky veřejnosti a díky správnému SEO se
+                        objevat na vrcholkách vyhledávání, čím zlepší prodeje a podvědomí o firmě.
+                    </p>
+                </div>
+                <div class="question">
+                    <p class="question-header">
+                        Technologie?
+                    </p>
+                    <p class="question-text">
+                        Možná Vás napadla otázka, proč nepoužíváme například WordPress. I přesto že CMS jsou v dnešní
+                        době už více pokročilý, pořád nenabízí tolik možností jako všechny jiné jazyky zkombinovaný.
+                    </p>
+                </div>
+                <div class="question">
+                    <p class="question-header">
+                        Doba na výrobu webu?
+                    </p>
+                    <p class="question-text">
+                        Na výrobu jednostránkových webů si bereme v zásadě maximálně 2 týdny, pokud se jedná o větší
+                        stránky, tak se dodací doba může prodloužit. Avšak vše to je o domluvě, pokud budete stránku
+                        potřebovat brzy, tak bude její výroba u nás priorizovat.
+                    </p>
+                </div>
+                <div class="question">
+                    <p class="question-header">
+                        Máte se čeho bát?
+                    </p>
+                    <p class="question-text">
+                        I přesto, že předávání Vašich nápadů může být složité, tak by tato představa nemohla být dále od
+                        pravdy. Postaráme se, aby otázky, které Vám budou pokládany, byly co nejjednodušší na
+                        zodpovězení. A to nejlepší? Celá schůzka je nazávazná!
+                    </p>
+                </div>
+                <div class="question">
+                    <p class="question-header">
+                        Cena webových stránek?
+                    </p>
+                    <p class="question-text">
+                        I přesto, že ceny webových developerů konstantně stoupají, u nás si držíme lidové ceny, jelikož
+                        stále potřebujeme prorazit. I proto u nás projekty může zhotovit i za méně než polovinu ceny
+                        konkurentů.
+                    </p>
+                </div>
+                <div class="question">
+                    <p class="question-header">
+                        SEO?
+                    </p>
+                    <p class="question-text">
+                        SEO, neboli search engine optimalization je nástroj, kterým vám dostaneme do vrchních řádku ve
+                        vyhledávači. Ať už se jedná o design webu, speciální změny v kódování, je to na nás!
                     </p>
                 </div>
             </div>
 
-            
-        </div>
-      </div>
-
-      <div class="on-what-container">
-      
-        <p class="on-what-header hidden-element">
-            Naše hračky!
-        </p>
-       
-        <div class="on-what-down">
-            <img class="on-what-icon hidden-element" src="pictures/html.png">
-            <img class="on-what-icon hidden-element" src="pictures/css.svg">
-            <img class="on-what-icon hidden-element" src="pictures/js.png">
-            <img class="on-what-icon hidden-element" src="pictures/mysql.png">
-            <img class="on-what-icon hidden-element" src="pictures/nodejs.svg">
-            <img class="on-what-icon hidden-element" src="pictures/php.png">
-        </div>
-      </div>
-
-      <div class="question-container">
-        <h5 class="hidden-element">Často kladené otázky</h5>
-        <div class="question-main hidden-element">
-            <div class="question">
-            <p class="question-header">
-                Proč je web důležitý?
-            </p>
-            <p class="question-text">
-                Internet je místem, kde vás lidi najdou. Místem, kde se odehrává v dnešní době většina marketingu. Dobře vyřešené webovky dokážou zaujmout zraky veřejnosti a díky správnému SEO se objevat na vrcholkách vyhledávání, čím zlepší prodeje a podvědomí o firmě.
-            </p>
-        </div>
-        <div class="question">
-            <p class="question-header">
-                Technologie?
-            </p>
-            <p class="question-text">
-                Možná Vás napadla otázka, proč nepoužíváme například WordPress. I přesto že CMS jsou v dnešní době už více pokročilý, pořád nenabízí tolik možností jako všechny jiné jazyky zkombinovaný.
-            </p>
-        </div>
-        <div class="question">
-            <p class="question-header">
-                Doba na výrobu webu?
-            </p>
-            <p class="question-text">
-                Na výrobu jednostránkových webů si bereme v zásadě maximálně 2 týdny, pokud se jedná o větší stránky, tak se dodací doba může prodloužit. Avšak vše to je o domluvě, pokud budete stránku potřebovat brzy, tak bude její výroba u nás priorizovat. 
-            </p>
-        </div>
-        <div class="question">
-            <p class="question-header">
-                Máte se čeho bát?
-            </p>
-            <p class="question-text">
-                I přesto, že předávání Vašich nápadů může být složité, tak by tato představa nemohla být dále od pravdy. Postaráme se, aby otázky, které Vám budou pokládany, byly co nejjednodušší na zodpovězení. A to nejlepší? Celá schůzka je nazávazná!
-            </p>
-        </div>
-        <div class="question">
-            <p class="question-header">
-                Cena webových stránek?
-            </p>
-            <p class="question-text">
-                I přesto, že ceny webových developerů konstantně stoupají, u nás si držíme lidové ceny, jelikož stále potřebujeme prorazit. I proto u nás projekty může zhotovit i za méně než polovinu ceny konkurentů. 
-            </p>
-        </div>
-        <div class="question">
-            <p class="question-header">
-               SEO?
-            </p>
-            <p class="question-text">
-                SEO, neboli search engine optimalization je nástroj, kterým vám dostaneme do vrchních řádku ve vyhledávači. Ať už se jedná o design webu, speciální změny v kódování, je to na nás!
-            </p>
-        </div>
-        </div>
-       
     </main>
     <footer class="footer-container">
         <div class="socials-wrapper">
@@ -397,16 +429,16 @@
             </menu>
         </div>
         <div class="footer-up">
-            
+
             <a href="#">
                 <img class="footer-weblish-icon" src="pictures/weblis-logo-big-color.svg">
             </a>
-            
-             
+
+
         </div>
-        
-    </div>
-    
+
+        </div>
+
         <div class="footer-down">
             <div class="footer-links">
                 <p class="footer-link">
@@ -421,9 +453,9 @@
                 <p class="footer-link">
                     Blog
                 </p>
-                
+
             </div>
-            
+
             <div class="footer-info">
                 <p>
                     ©2023 WEBSLISH | Všechna práva vyhrazena
@@ -431,11 +463,12 @@
             </div>
         </div>
 
-      </footer>   
+    </footer>
     </div>
 
     <script src="scripts/element-animate.js"></script>
     <script src="scripts/burger-menu.js"></script>
     <script src="scripts/icons-expand.js"></script>
-    </body>
+</body>
+
 </html>

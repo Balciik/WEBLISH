@@ -1,0 +1,213 @@
+h1 {
+    font-size: 40px;
+    margin-top: 180px;
+    text-align: center;
+    color: rgb(12, 11, 11);
+}
+
+.references-line {
+    width: 60%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #006E54;
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+h2 {
+    color: rgb(12, 11, 11);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.study-line {
+    width: 40%;
+    height: 6px;
+    background-color: rgb(12, 11, 11);
+    border-radius: 2px;
+    margin-top: -10px;
+    margin-bottom: 28px;
+}
+.study-sec
+ {
+    width: 300px;
+    height: 450px;
+    box-shadow: 2Px 4px 10px #006E54;
+    
+   
+
+
+    background-color: white;
+   
+    
+}
+
+.round-left {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 20px;
+    box-shadow: -2Px 4px 10px #006E54;
+}
+.round-right {
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 20px;
+}
+
+.study-sec-header {
+    font-size: 26px;
+    font-weight: 700;
+    color: rgb(12, 11, 11);
+}
+.study-sec-line {
+    width: 80%;
+    height: 4Px;
+    border-radius: 2px;
+    background-color: #006E54;
+    margin-top: -16px;
+ 
+}
+.study-prim-header {
+    font-size: 30px;
+    font-weight: 700;
+    color: #F7F5DD;
+}
+
+.study-prim {
+    width: 300px;
+    height: 500px;
+    background-color: #006E54;
+  
+    border-radius: 20px 20px 8px 8px;
+    margin-bottom: 30px;
+    z-index: 10;
+
+ 
+   
+}
+
+.study-prim-line {
+    width: 90%;
+    background-color: #F7F5DD;
+    height: 6px;
+    border-radius: 3px;
+    margin-top: -20px;
+}
+
+.study-prim-button,
+.study-sec-button {
+    width: 65%;
+    align-self: center;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: #F7F5DD;
+    color: rgb(12, 11, 11);
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.study-sec-button {
+    background-color: #006E54;
+    color: whitesmoke;
+}
+
+.study-sec-button:hover {
+    background-color: #02503d;
+    color: white;
+}
+.study-sec-button:active {
+    background-color: #023c2d;
+    color: #F7F5DD;
+}
+.study-prim-button:hover {
+    background-color: whitesmoke;
+    color: rgb(39, 38, 38);
+}
+
+.study-prim-button:active {
+    color: black;
+    background-color: #F7F5DD;
+}
+
+.study-prim-icon,
+.study-sec-icon {
+    width: 260px;
+    align-self: center;
+   
+}
+.study-description-prim,
+.study-description-sec {
+    width: 80%;
+    text-align: center;
+    align-self: center;
+    color: rgb(240, 238, 238);
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.study-description-sec {
+    color: rgb(12, 11, 11);
+}
+
+.references-header {
+    font-size: 28px;
+    color: #121212;
+}
+
+.references-img {
+    max-width: 400px;
+    
+    border-radius: 6px;
+   
+    position: relative;
+}
+
+.references-small {
+    width: max-content;
+    margin: 40px;
+    background-color:lightgrey;;
+    border-radius: 20px;
+    
+    padding-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cayn {
+    background-color: lightgrey;
+}
+
+.references-small:hover {
+    background-color: whitesmoke;
+}
+
+.cayn:hover {
+    background-color: whitesmoke;
+}
+
+.references-name {
+    font-size: 34px;
+    color: rgb(12, 11, 11);
+    font-weight: 700;
+    padding: none;
+    margin-top: 2px;
+}
+.references-description {
+    color: rgb(12, 11, 11);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.small {
+    background-color: rgb(12, 11, 11);
+    width: 40%;
+    height: 4px;
+    margin-top: -12px;
+}
+

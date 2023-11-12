@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100px;
+    background-color: #F7F5DD;
+    z-index: 100;
+ 
+}
+
+.left-header {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInDown 0.4s both;
+ 
+}
+
+@media (max-width: 500px) {
+    .header-header {
+        content:url(weblish-header-small.svg)
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+.header-header {
+    width: 50%;
+    margin-left: -20px;
+    transition: 0.2s ease-out 100ms;
+}
+.header-header:hover {
+    
+    color: #f33b7e;
+    
+    cursor: pointer;
+   
+}
+.right-header {
+    display: flex;
+    flex-direction: row;
+    flex: 7;
+    opacity: 0;
+    animation: fadeInDown 0.4s both;
+}
+
+.right-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.services-link,
+.how-works-link,
+.about-us-link,
+.contacts-link {
+    margin-right: 22px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #006E54;
+    transition: ease-in-out 400ms;
+}
+.services-link:hover,
+.how-works-link:hover,
+.about-us-link:hover,
+.contacts-link:hover {
+    color: #00392c;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+
+
+
+
+@media (max-width: 1400px) {
+    .contacts-link,
+    .services-link,
+    .about-us-link,
+    .how-works-link {
+        display: none;
+    }
+
+    
+}
+
